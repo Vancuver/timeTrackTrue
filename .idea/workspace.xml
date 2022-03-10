@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="setup">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Core/timeTrackEntity.java" afterDir="false" />
+    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="class creation">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" afterDir="false" />
     </list>
@@ -64,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -75,6 +75,16 @@
       <recent name="C:\Users\Monako\IdeaProjects\timeTrackTrue\.idea" />
       <recent name="C:\Users\Monako\IdeaProjects\timeTrackTrue" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="timeTrackApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-16" />
+      <option name="MAIN_CLASS_NAME" value="UI.timeTrackApplication" />
+      <module name="timeTrackTrue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646931895104</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class creation">
+      <created>1646933142374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646933142374</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,9 +131,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+    <MESSAGE value="class creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="class creation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
