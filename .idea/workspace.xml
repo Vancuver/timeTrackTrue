@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="feature/1 added tru/catch">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/timeTrackTrue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/timeTrackTrue.iml" afterDir="false" />
+    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="check gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/AddUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/AddUserUIAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersUIAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/UIAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/UIMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646998447971</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="check gitignore">
+      <created>1647000065537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647000065537</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +163,8 @@
     <MESSAGE value="setup" />
     <MESSAGE value="class creation" />
     <MESSAGE value="feature/1 added tru/catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/1 added tru/catch" />
+    <MESSAGE value="check gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="check gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
