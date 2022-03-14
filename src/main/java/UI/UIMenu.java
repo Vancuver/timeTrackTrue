@@ -10,15 +10,15 @@ public class UIMenu { //Задача предоставить меню поль�
 
     public UIMenu(List<UIAction> uiActions){
         this.uiActions = uiActions;
-    }
+    } //переданный список действий, станет списком пунктов для меню
 
     public void startUI(){  //Запуск интерфейса
         while(true){
             try {
                 System.out.println("Please make your choice: ");
                 for (int i = 0; i < uiActions.size(); i++) { //Вывод меню
-                    var uiAction = uiActions.get(i); //Создание действия
-                    System.out.println(i + ". " + uiAction.getActionName());//Получение названия действия
+                    var uiAction = uiActions.get(i); //Получение действия из списка
+                    System.out.println(i + ". " + uiAction.getActionName());//Получение названия действия из списка
                 }
                 Scanner scanner = new Scanner(System.in);
                 int userInput = scanner.nextInt();//получение номера действия пользователя
