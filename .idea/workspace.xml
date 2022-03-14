@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="feature/1 added tru/catch">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/timeTrackTrue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/timeTrackTrue.iml" afterDir="false" />
+    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="Start services">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Core/AddUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Core/FindAllUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataBase/ArrayListTimeTrackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataBase/timeTrackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timeTrackApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core/timeTrackEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/timeTrackEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/AddUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/AddUserUIAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/AddUserUIAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersUIAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersUIAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/UIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +90,7 @@
   <component name="RunManager">
     <configuration name="timeTrackApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-16" />
-      <option name="MAIN_CLASS_NAME" value="UI.timeTrackApplication" />
+      <option name="MAIN_CLASS_NAME" value="timeTrackApplication" />
       <module name="timeTrackTrue" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646998447971</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="check gitignore">
+      <created>1647000065537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647000065537</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Start services">
+      <created>1647206996659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647206996659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +175,9 @@
     <MESSAGE value="setup" />
     <MESSAGE value="class creation" />
     <MESSAGE value="feature/1 added tru/catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/1 added tru/catch" />
+    <MESSAGE value="check gitignore" />
+    <MESSAGE value="Start services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start services" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
