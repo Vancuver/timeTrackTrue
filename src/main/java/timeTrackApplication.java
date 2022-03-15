@@ -1,7 +1,7 @@
 import Core.AddUserService;
 import Core.FindAllUsersService;
+import Core.ValidationService;
 import DataBase.ArrayListTimeTrackRepository;
-import DataBase.timeTrackRepository;
 import UI.AddUserUIAction;
 import UI.FindAllUsersUIAction;
 import UI.UIMenu;
@@ -13,8 +13,9 @@ public class timeTrackApplication {
     public static void main(String[] args) {
 
         var repository = new ArrayListTimeTrackRepository(); // Создаём объект репозитория(места откуда берём инфу)
+        var validationService = new ValidationService();
 
-        var addService = new AddUserService(repository); //Создаем сервис отвечающий за добавление юзеров
+        var addService = new AddUserService(repository, validationService); //Создаем сервис отвечающий за добавление юзеров
         var findAllService = new FindAllUsersService(repository); //Создаем сервис отвечающий за выведение всех юзеров
 
         var actions = Arrays.asList(new AddUserUIAction(addService),

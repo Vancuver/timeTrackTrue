@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="Start services">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Core/AddUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Core/FindAllUsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataBase/ArrayListTimeTrackRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataBase/timeTrackRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timeTrackApplication.java" afterDir="false" />
+    <list default="true" id="e8622888-64d0-4450-823c-4ddc1ca47867" name="Changes" comment="finish lesson two">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Core/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Core/ValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/timeTrackTrue/UI/timeTrackApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Core/timeTrackEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/timeTrackEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/AddUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/AddUserUIAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/AddUserUIAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersUIAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/FindAllUsersUIAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/UIMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/timeTrackApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core/AddUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/AddUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/ArrayListTimeTrackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBase/ArrayListTimeTrackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timeTrackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timeTrackApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/1" />
+        <entry key="$PROJECT_DIR$" value="feature/2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647206996659</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish lesson two">
+      <created>1647290097430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647290097430</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +176,8 @@
     <MESSAGE value="feature/1 added tru/catch" />
     <MESSAGE value="check gitignore" />
     <MESSAGE value="Start services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start services" />
+    <MESSAGE value="finish lesson two" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish lesson two" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
