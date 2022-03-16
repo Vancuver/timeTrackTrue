@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class timeTrackEntity {
    private int id;
-   private String name;
-   private String surname;
+   private static String name;
+   private static String surname;
 
    public int getId() {
       return id;
@@ -15,7 +15,7 @@ public class timeTrackEntity {
       this.id = id;
    }
 
-   public String getName() {
+   public static String getName() {
       return name;
    }
 
@@ -23,7 +23,7 @@ public class timeTrackEntity {
       this.name = name;
    }
 
-   public String getSurname() {
+   public static String getSurname() {
       return surname;
    }
 

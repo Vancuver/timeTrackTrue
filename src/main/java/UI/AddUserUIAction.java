@@ -2,6 +2,7 @@ package UI;
 
 import Core.AddUserService;
 import Domain.timeTrackEntity;
+import dto.AddUserRequest;
 
 import java.util.Scanner;
 
@@ -23,13 +24,15 @@ public class AddUserUIAction implements UIAction {
         System.out.println("Please enter user surname: ");
         String surname = scanner.nextLine();
 
-        timeTrackEntity entity = new timeTrackEntity();
-        entity.setName(name);
-        entity.setSurname(surname);
 
-        addUserService.addUser(entity);
+        var request = new AddUserRequest();
+        request.setName(name);
+        request.setSurname(surname);
 
-    } //Запрос и добавление юзера в базу данных
+        var response = addUserService.addUser(request);
+        System.out.println("Received response: " + response);
+
+    }
 
     @Override
     public String getActionName() {

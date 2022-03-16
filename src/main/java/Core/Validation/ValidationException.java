@@ -1,4 +1,4 @@
-package Core;
+package Core.Validation;
 
 public class ValidationException extends RuntimeException {
 

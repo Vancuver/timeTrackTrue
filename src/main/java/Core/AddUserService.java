@@ -1,7 +1,12 @@
 package Core;
 
+import Core.Validation.ValidationService;
 import DataBase.timeTrackRepository;
 import Domain.timeTrackEntity;
+import dto.AddUserRequest;
+import dto.AddUserResponse;
+
+import java.util.List;
 
 public class AddUserService {
 
@@ -13,11 +18,31 @@ public class AddUserService {
         this.validationService = validationService;
     }
 
-    public void  addUser(timeTrackEntity entity){
-        validationService.validate(entity);
-        repository.add(entity);
+    public AddUserResponse addUser(AddUserRequest request){
 
+        var entity = convert(request);
+
+        var validationResult = validationService.validate(request);
+
+        if (!validationResult.isEmpty()){
+            var response = new AddUserResponse();
+            response.setErrors(validationResult);
+            return response;
+        }
+
+
+        var createdEntity =  repository.add(entity);
+
+        var response = new AddUserResponse();
+        response.setCreatedID(createdEntity.getId());
+        return response;
 
     }
 
+    private timeTrackEntity convert(AddUserRequest request){
+        timeTrackEntity entity = new timeTrackEntity();
+        entity.setName(request.getName());
+        entity.setSurname(request.getSurname());
+        return entity;
+    }
 }
